@@ -1,0 +1,43 @@
+.friend{
+    background-color: rgb(47, 53, 79);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 20px;
+    /* width: 40%; */
+    margin: 5px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    width: 40%;
+    text-overflow:unset;
+    overflow:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+img{
+    width:250px;
+    padding-right: 15px;
+    border-radius: 40px;
+}
+.frienddata{
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 10px;
+    border-left: 3px solid white;
+
+}
+button{
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    font-weight: 600;
+}
+button:hover{
+    box-shadow: 10px 10px 20px  black ;
+}
